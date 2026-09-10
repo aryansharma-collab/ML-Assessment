@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Downloaded models (too large for git)
+models/
+
+# ChromaDB data (can be regenerated)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# RAG prompt output (generated)
+rag_prompt_output.txt
+
+# Assessment PDF (optional, don't redistribute)
+*.pdf
